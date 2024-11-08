@@ -1,5 +1,6 @@
-def Run():
+def run():
     # Welcome message
+    global result
     print("""
 + =============== +
 +                 +
@@ -39,7 +40,8 @@ def Run():
         else:
             print("Invalid operator. Exiting...")
             exit(1)
+
     # Print result
     print("Result:", result)
 
-Run()
+run()
